@@ -1,6 +1,8 @@
 # file-dll-summary
 Enumerate and checksum all DLLs and files used by a process
 
+The purpose of this project is to create reports of DLLs, files, and checksums.  These reports can be collected from multiple environments and compared using a merging tool to see what DLLs or files are different between environments without comparing entire directories across a network.  Doing so will also limit the scope of files compared to only DLLs and files that are relevant to a particular execution or behavior within the target process.  The DLLs and files are sorted to make this comparison easier within your merging tool.
+
 ## Summary
 
 There are two stages to getting a summary of a process.
