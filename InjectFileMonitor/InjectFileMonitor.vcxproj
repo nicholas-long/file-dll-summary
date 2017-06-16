@@ -22,7 +22,7 @@
     <ProjectGuid>{3A000856-A135-4AED-9768-D46BE4A0F069}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>InjectFileMonitor</RootNamespace>
-    <WindowsTargetPlatformVersion>5.02</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
