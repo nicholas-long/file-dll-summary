@@ -1,6 +1,8 @@
 # file-dll-summary
 Enumerate and checksum all DLLs and files used by a process
 
+## Summary
+
 There are two stages to getting a summary of a process.
 1. Enumerating the modules
 2. Watching the process (optional)
@@ -38,3 +40,13 @@ Finish watching the process as soon as you press enter.
 `FilesUseComparison --name process.exe --watch > output.txt`
 
 `FilesUseComparison --pid 1234`
+
+## Technical details
+
+Works on Windows x86 processes only.  I think.  There's a branch for supporting XP and Windows Server 2003.
+
+## Dependencies
+
+* IDE: Visual Studio 2015
+* Platform SDK
+* boost
